@@ -41,3 +41,5 @@ Ahora, puedes acceder a la aplicación en tu navegador en http://localhost:8000.
 
 * Control de Errores: 
     Se implementó un manejo adecuado de errores en el frontend, mostrando mensajes de error claros y visibles cuando las validaciones fallan. Esto facilita que los usuarios comprendan qué necesitan corregir.
+  
+[Desarrollo de un CRUD Básico en Laravel.txt](https://github.com/user-attachments/files/17249525/Parte.1-Desarrollo.de.un.CRUD.Basico.en.Laravel.txt)
