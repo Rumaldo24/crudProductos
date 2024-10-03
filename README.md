@@ -1,6 +1,5 @@
-** Documentación:
-* 
-Instrucciones para Ejecutar la Aplicación
+* Documentación:
+* Instrucciones para Ejecutar la Aplicación
 
 * Clonar el Repositorio:
 
@@ -21,12 +20,12 @@ Crear la Base de Datos: Asegúrate de que la base de datos especificada en el ar
 
 php artisan migrate
 
-*Iniciar el Servidor de Desarrollo: Finalmente, inicia el servidor local de Laravel usando el siguiente comando:
+* Iniciar el Servidor de Desarrollo: Finalmente, inicia el servidor local de Laravel usando el siguiente comando:
 
 php artisan serve
 Ahora, puedes acceder a la aplicación en tu navegador en http://localhost:8000.
 
-**Decisiones Tomadas Durante el Desarrollo:
+* Decisiones Tomadas Durante el Desarrollo:
 
 * Implementación del CRUD: 
     Se implementó un sistema CRUD (Crear, Leer, Actualizar, Eliminar) para gestionar productos. Esta funcionalidad es esencial para cualquier aplicación de gestión de inventario. Se decidió usar migraciones para definir la estructura de la base de datos, lo que permite un versionado fácil y la capacidad de revertir cambios.
@@ -40,5 +39,5 @@ Ahora, puedes acceder a la aplicación en tu navegador en http://localhost:8000.
 * Uso de Iconos:
       Se optó por usar Font Awesome para los iconos de acción (ver, editar, eliminar), lo que mejora la estética de la interfaz y hace que sea más intuitiva para los usuarios.
 
-*Control de Errores: 
+* Control de Errores: 
     Se implementó un manejo adecuado de errores en el frontend, mostrando mensajes de error claros y visibles cuando las validaciones fallan. Esto facilita que los usuarios comprendan qué necesitan corregir.
